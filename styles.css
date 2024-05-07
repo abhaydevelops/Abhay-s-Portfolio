@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: black;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    /* padding: 40px; */
+    font-size: 20px;
+    background-color: white;
+    margin-top: 40px;
+  }
+  
+  .intro img {
+    border-radius: 50%;
+    height: 180px;
+  }
+  .about{
+    text-align: center;
+    padding: 40px;
+    font-size: 12px;
+    margin: 0 30%;
+  }
+  .about h2,p{
+    margin-bottom: 5px;
+  }
